@@ -1753,3 +1753,65 @@
 .client-card:hover {
   background: #f9fafb;
 }
+/* ===== MOBILE RESPONSIVE FIX ===== */
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .facility-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .clients-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-layout {
+    flex-direction: column;
+  }
+
+  .contact-form-box {
+    width: 100%;
+  }
+
+  iframe {
+    height: 250px;
+  }
+}
+.contact-layout {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .contact-layout {
+    flex-direction: column;
+  }
+}

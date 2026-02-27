@@ -248,7 +248,7 @@ function App() {
             <h2>Contact Us</h2>
             <p>
               C-96, MIDC Area, Waluj,<br />
-              Aurangabad – 431136, Maharashtra
+              Chhatrapati Sambhajinagar – 431136, Maharashtra
             </p>
 
             <p>
